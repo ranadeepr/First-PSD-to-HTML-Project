@@ -1,0 +1,440 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.topbar {
+
+    background-color: #fe525b;
+    height: 44px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 38px;
+}
+
+/*----------------------Start Navbar Section CSS-----------------------------*/
+
+.navbar li a {
+    color: #000;
+    font-weight: 600;
+}
+
+.logo {
+    width: 50px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+
+/*----------------------End Navbar Section CSS-----------------------------*/
+
+
+/*----------------------Start Banner Section CSS-----------------------------*/
+
+#banner {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #000;
+    letter-spacing: 1px;
+
+}
+
+.centered h1 {
+    font-size: 70px;
+}
+
+.centered p {
+    font-size: 20px;
+}
+
+/*----------------------End Banner Section CSS-----------------------------*/
+
+/*----------------------Start Summer Sale Section CSS-----------------------------*/
+
+#summer {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 140px;
+}
+
+#summer hr {
+
+    margin: 40px auto 60px auto;
+    height: 2px;
+    position: relative;
+    top: 10px;
+    width: 10%;
+    background: rgb(70, 2, 74);
+    background: linear-gradient(90deg, rgba(70, 2, 74, 0.4962359943977591) 0%, #790960fe 13%, rgba(115, 0, 255, 1) 100%);
+
+}
+
+.hdlin p {
+    font-size: 30px;
+}
+
+.my-container {
+    margin: 70px auto 70px;
+    padding: 0;
+}
+
+.offer1 {
+    position: absolute;
+    top: 0px;
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+
+
+}
+
+/*----------------------End Summer Sale Section CSS-----------------------------*/
+
+/*------------------------Start Purchase Summer---------------------------------*/
+
+#purchase {
+    height: auto;
+    text-align: center;
+    padding: 35px 0;
+    background: rgb(241, 160, 161);
+    background: linear-gradient(94deg, rgba(241, 160, 161, 1) 31%, rgba(42, 160, 113, 1) 74%);
+}
+
+.headln {
+
+    font-size: 35px;
+    color: #fff;
+}
+
+.subln {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.my-btn {
+    border-radius: 30px;
+    border: 1px solid #0069d9;
+    font-size: 18px;
+    color: #fff;
+    margin: 10px;
+}
+
+.my-btn1 {
+    border-radius: 30px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    color: #fff;
+    margin: 10px;
+}
+
+/*------------------------End Purchase Summer---------------------------------*/
+
+
+/*-------------------------Start Supported Payment Section--------------------*/
+
+#payment {
+    height: auto;
+    text-align: center;
+    padding: 35px 0;
+
+}
+
+.headln1 {
+
+    font-size: 35px;
+    color: #000;
+}
+
+
+.headln1 hr {
+
+    margin: 40px auto 60px auto;
+    height: 2px;
+    position: relative;
+    top: 5px;
+    width: 10%;
+    background: rgb(70, 2, 74);
+    background: linear-gradient(90deg, rgba(70, 2, 74, 0.4962359943977591) 0%, #790960fe 13%, rgba(115, 0, 255, 1) 100%);
+
+}
+
+.my-galbox {
+    position: relative;
+    padding: 15px;
+    margin-bottom: 80px;
+}
+
+
+/*-------------------------End Supported Payment Section--------------------*/
+
+/*-------------------------Start Contact Section--------------------*/
+
+.me-contn{
+    padding: 0;
+}
+
+.me-row{
+    background-color: #232323;
+}
+
+.hori-lne{
+
+    height: 2px;
+    position: relative;
+    left: 14px;
+    top: 5px;
+    width: 10%;
+    background: rgb(70, 2, 74);
+    background: linear-gradient(90deg, rgba(70, 2, 74, 0.4962359943977591) 0%, #790960fe 13%, rgba(115, 0, 255, 1) 100%);
+
+}
+
+.addrss{
+    padding: 20px;
+    color: #fff;
+    
+}
+
+/*-------------------------End Contact Section--------------------*/
+
+/*-------------------------Start Subscribe Section--------------------*/
+
+#subscrb{
+    background-color: #232323;
+    height: 100%;
+    color: #fff;
+    }
+
+.con-sub{
+    height: auto;
+    float: left;
+}
+
+.soci {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 80%;
+  }
+
+ 
+
+  .fa-facebook {
+    background: #fe525b;
+    color: white;
+  }
+
+  .fa-twitter{
+    background: #fe525b;
+    color: white;
+  }
+
+  .fa-youtube-play{
+    background: #fe525b;
+    color: white;
+  }
+
+  .fa-pinterest-p{
+    background: #fe525b;
+    color: white;  
+  }
+  .fa-instagram{
+    background: #fe525b;
+    color: white;   
+  }
+
+  ul{
+      list-style-type: none;
+      line-height: 25px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+  }
+
+
+  ul li a{
+     color: white;
+      
+  }
+
+  li a:hover{
+      text-decoration: none;
+      color: aqua;
+  }
+
+  input[type=text] {
+    position: relative;
+    top: 35px;
+    width: 60%;
+    padding: 8px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+
+  input[type=submit] {
+    position: relative;
+    top: 35px;
+    left: 10px;
+    width: 20%;
+    margin: 8px 8px;
+    font-size: 12px;
+    padding: 8px 4px;
+    background-color: #fe525b;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+/*-------------------------Start Subscribe Section--------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+
+    .fa fa-bars {
+
+        color: blue;
+    }
+
+    .navbar-toggler {
+        outline: none;
+    }
+
+    .navbar li a {
+        float: right;
+        text-align: left;
+        font-weight: 400;
+    }
+
+    .nav-link {
+        float: right;
+    }
+
+    .dropdown-item {
+        float: right;
+    }
+
+    .topbar {
+        font-size: 16px;
+    }
+
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        font-weight: 600;
+        color: #000;
+        padding-top: 30px;
+    }
+
+    .centered h1 {
+        font-size: 20px;
+    }
+
+    .centered p {
+
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+
+    .hdlin p {
+        font-size: 20px;
+
+    }
+    .headln {
+
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .subln {
+        font-size: 15px;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    .btn-div {
+        padding: 25px;
+    }
+
+    .my-btn1 .my-btn2 {
+        border-radius: 30px;
+        font-size: 12px;
+        color: #fff;
+        margin: 10px;
+    }
+
+
+    .headln1 {
+
+        font-size: 18px;
+        color: #000;
+    }
+
+    .my-galbox{
+        position: relative;
+        margin-bottom: 15px;
+    }
+
+}
